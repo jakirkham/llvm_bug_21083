@@ -1,0 +1,8 @@
+language: c++
+os: osx
+
+compiler: clang
+
+script:
+  - clang --std=c++11 bug.cxx
+  - ./a.out
